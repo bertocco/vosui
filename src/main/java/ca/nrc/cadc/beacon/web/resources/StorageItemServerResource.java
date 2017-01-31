@@ -107,7 +107,8 @@ import java.util.List;
 
 public class StorageItemServerResource extends SecureServerResource
 {
-    static final String VOSPACE_NODE_URI_PREFIX = "vos://cadc.nrc.ca!vospace";
+    //static final String VOSPACE_NODE_URI_PREFIX = "vos://cadc.nrc.ca!vospace";
+    static final String VOSPACE_NODE_URI_PREFIX = "vos://oats.inaf.it!vospace";
 
 
     // Page size for the initial page display.
