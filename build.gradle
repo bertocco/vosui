@@ -45,7 +45,8 @@ version = '1004'
 def docker_image_name = 'opencadc/storage'
 
 war {
-    archiveName 'storage##' + project.version + '.war'
+    //archiveName 'storage##' + project.version + '.war'
+    archiveName 'storage.war'
 }
 
 clean {
