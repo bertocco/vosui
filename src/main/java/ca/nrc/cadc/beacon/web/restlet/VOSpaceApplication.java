@@ -106,10 +106,12 @@ public class VOSpaceApplication extends Application
     public static final String DEFAULT_CONTEXT_PATH = "/storage/";
 
     private static final String DEFAULT_SERVICE_ID =
-            "ivo://cadc.nrc.ca/vospace";
+            "ivo://oats.inaf.it/vospace";
+            //"ivo://cadc.nrc.ca/vospace";
 
     private static final String DEFAULT_GMS_SERVICE_ID =
-            "ivo://cadc.nrc.ca/gms";
+            "ivo://oats.inaf.it/gms";
+            //"ivo://cadc.nrc.ca/gms";
     private static final String GMS_SERVICE_PROPERTY_KEY =
             "org.opencadc.gms.service_id";
 
